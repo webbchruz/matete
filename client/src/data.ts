@@ -17,7 +17,7 @@ export const sampleProducts:Product[]=[
     name:'Lacoste free Pants',
     slug:'Lacost-free-pants',
     category:'Pants',
-    image:'../images/p3.png',
+    image:'../images/p3.jpg',
     price:220,
     countInStock:0,
     brand:'Lacoste',
@@ -36,5 +36,17 @@ export const sampleProducts:Product[]=[
     rating:4.5,
     numReviews:14,
     description:'high quality product',
+},
+{
+    name:'Matete collection',
+    slug:'adidas-pant-slim',
+    category:'pants',
+    image:'../images/p2.jpg',
+    price:80,
+    countInStock:20,
+    brand:"Adidas",
+    rating:5.0,
+    numReviews:20,
+    description:'high quality product new collection'
 }
 ]
